@@ -1,0 +1,5 @@
+{( "header" )}
+	<form id="paster" action="/" method="post">
+		<textarea name="paste" rows="10" cols="50">{if self.env.post and self.env.post.paste then}{{self.env.post.paste}}{end}</textarea>
+	</form>
+{( "footer" )}

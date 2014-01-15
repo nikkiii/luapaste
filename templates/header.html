@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Lua Paste Bucket</title>
+		<meta name="viewport" content="width=device-width">
+
+		<link href="/css/style.css" media="all" type="text/css" rel="stylesheet">
+</head>
+	<body onload="prettyPrint()">
+		<div class="header">
+			<a class="logo" href="http://paste.nikkii.us"><img src="/img/luapaste.png" alt="" style="border: 0;" /></a>
+			<ul class="buttons">
+{ for k, v in pairs(self.buttons) do }
+				<li><a href="{{v.link}}"{ if v.class then } class="{{v.class}}"{ end }>{{v.text}}</a></li>
+{ end }
+			</ul>
+		</div>
