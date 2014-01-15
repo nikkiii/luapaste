@@ -23,7 +23,7 @@ function index(env, con)
 		end
 	end
 	
-	table.insert(model['buttons'], {
+	table.insert(model.buttons, {
 		['link'] = 'javascript: createPaste()',
 		['class'] = 'save',
 		['text'] = 'Save'

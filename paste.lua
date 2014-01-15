@@ -27,7 +27,7 @@ function index(env, con)
 			con:puts(paste.paste)
 			return
 		elseif env.get.act == 'fork' then
-			table.insert(model['buttons'], {
+			table.insert(model.buttons, {
 				['link'] = 'javascript: createPaste()',
 				['class'] = 'save',
 				['text'] = 'Save'
